@@ -19,5 +19,14 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  }
+  },
+  {
+  "name": "turbulent_jet_flow",
+  "version": "0.1.0",
+  "homepage": "https://ritesh-97.github.io/turbulent_jet_flow",
+  "public": true,
+  
+}
+
+  
 }

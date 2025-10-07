@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turbulent Round Jet Analyzer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for a better dark theme experience */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+
+    @media print {
+      /* Ensure that the recharts containers have a defined size for printing, 
+         as responsive containers can fail to render. */
+      .recharts-responsive-container {
+        width: 100% !important;
+        height: 250px !important; /* A fixed height for print output */
+      }
+      .recharts-wrapper {
+        position: static !important;
+      }
+      /* Hide the scrollbar in print view */
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      body {
+        background: #fff; /* Ensure background is white for printing */
+      }
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-900 text-slate-200 antialiased">
+  <div id="root"></div>
+</body>
+</html>

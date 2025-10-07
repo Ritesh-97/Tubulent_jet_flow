@@ -1,0 +1,5 @@
+{
+  "name": "Turbulent Round Jet Analyzer",
+  "description": "An interactive web application to analyze turbulent round jet data. Users can input experimental measurements, compute key fluid dynamics properties like velocity, mass flow, and momentum, visualize the data through various plots, and generate a comprehensive, auditable report with full step-by-step calculations.",
+  "requestFramePermissions": []
+}
